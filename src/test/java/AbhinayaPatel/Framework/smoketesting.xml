@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smoketesting">
+    <test name="TC001">
+
+        <classes>
+            <class name="AbhinayaPatel.Framework.contact"></class>
+        </classes>
+    </test>
+
+    <test name="TC002">
+
+        <classes>
+            <class name="AbhinayaPatel.Framework.signin"></class>
+        </classes>
+    </test>
+
+    <test name="TC003">
+        <classes>
+            <class name="AbhinayaPatel.Framework.ENlanguage"></class>
+        </classes>
+    </test>
+
+    <test name="TC004">
+        <classes>
+            <class name="AbhinayaPatel.Framework.DElanguage"></class>
+        </classes>
+    </test>
+
+    <test name="TC005">
+        <classes>
+            <class name="AbhinayaPatel.Framework.ESlanguage"></class>
+        </classes>
+    </test>
+
+    <test name="TC006">
+        <classes>
+            <class name="AbhinayaPatel.Framework.AllLanguages"></class>
+        </classes>
+    </test>
+</suite>

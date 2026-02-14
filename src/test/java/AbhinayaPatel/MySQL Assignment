@@ -1,0 +1,28 @@
+show databases;
+
+create database nit9amnov2025;
+use nit9amnov2025;
+
+show tables;
+
+select*from ge_2024_results;
+
+select Candidate,EVM_votes from ge_2024_results order by EVM_Votes desc limit 1;
+
+select Candidate,Postal_Votes from ge_2024_results order by Postal_Votes asc limit 1;
+
+select State, Postal_Votes from ge_2024_results order by Postal_Votes desc limit 1;
+
+select Candidate,Constituency,State,`% of Votes`from ge_2024_results order by `% of Votes` desc limit 3;
+
+select Constituency,State,Total_Votes from ge_2024_results where candidate like "NOTA" order by Total_Votes desc limit 1;
+
+select Constituency,count(Candidate) as total_candidates from ge_2024_results group by Constituency order by total_candidates desc limit 1;
+
+select State,count(distinct Constituency) as total_seats from ge_2024_results group by State order by total_seats desc limit 1;
+
+select constituency,Candidate,State from ge_2024_results where Result like 'Won' and Total_Votes like 0;
+
+select count(candidate)from ge_2024_results where Party like 'Independent';
+
+select count(distinct Constituency) from ge_2024_results where Party like 'Indian National Congress';

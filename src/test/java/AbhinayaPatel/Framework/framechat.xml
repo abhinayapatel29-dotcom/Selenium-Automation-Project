@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test"  parallel="tests" thread-count="4">
+    <test name="t1">
+
+        <classes>
+            <class name="AbhinayaPatel.Framework.iphone"></class>
+        </classes>
+    </test>
+
+    <test name="t2">
+        <classes>
+            <class name="AbhinayaPatel.Framework.chatbox"></class>
+        </classes>
+    </test>
+
+    <test name="t3">
+        <classes>
+            <class name="AbhinayaPatel.Framework.draganddrop"></class>
+        </classes>
+    </test>
+
+    <test name="t4">
+        <classes>
+            <class name="AbhinayaPatel.Framework.iframes"></class>
+        </classes>
+    </test>
+    
+    <test name="t5">
+        <classes>
+            <class name="AbhinayaPatel.Framework.alert"></class>
+        </classes>
+    </test>
+
+</suite>

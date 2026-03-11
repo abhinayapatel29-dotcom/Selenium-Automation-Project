@@ -4,7 +4,7 @@
     <test name="TC001">
 
         <classes>
-            <class name="AbhinayaPatel.Assignment.Testcase.TC001_CustomerRegistration"></class>
+            <class name="AbhinayaPatel.frameworkk.Testcase.TC001_CustomerRegistration"></class>
 
         </classes>
     </test>

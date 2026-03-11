@@ -1,4 +1,4 @@
-package AbhinayaPatel.Assignment.baseclass;
+package AbhinayaPatel.frameworkk.baseclass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

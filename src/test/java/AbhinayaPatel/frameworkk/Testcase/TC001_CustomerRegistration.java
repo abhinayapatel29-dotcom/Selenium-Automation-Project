@@ -1,10 +1,9 @@
-package AbhinayaPatel.Assignment.Testcase;
+package AbhinayaPatel.frameworkk.Testcase;
 
-import AbhinayaPatel.Assignment.Pages.Registrationpage;
-import AbhinayaPatel.Assignment.Pages.loginpage;
-import AbhinayaPatel.Assignment.TestData.pagefactory;
-import AbhinayaPatel.Assignment.baseclass.baseclass;
-import AbhinayaPatel.Framework.signin;
+import AbhinayaPatel.frameworkk.Pages.Registrationpage;
+import AbhinayaPatel.frameworkk.Pages.loginpage;
+import AbhinayaPatel.frameworkk.TestData.pagefactory;
+import AbhinayaPatel.frameworkk.baseclass.baseclass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
